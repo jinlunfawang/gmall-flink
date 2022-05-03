@@ -23,9 +23,12 @@ package utils;
  *
  * @author :LiangFangWei
  * @description:
- * @date: 2022-05-02 14:54
+ * @date: 2022-05-02 19:18
  */
 
 
-public class KafkaProducer {
+public class HDFSConstant {
+    public static String CHECKPOINT_URI = "hdfs://hadoop100:9000/gmallflinkCDC";
+    public static String ODS_CHECKPOINT_URI = "hdfs://hadoop100:9000/gmall/ods";
+
 }
